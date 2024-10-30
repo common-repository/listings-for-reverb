@@ -1,0 +1,49 @@
+  .reverb-embedded-listings {
+    list-style-type: none !important;
+    float: left;
+  }
+  .reverb-embedded-listing {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 0.25em;
+    box-shadow: 2px 2px 1px #f9f9f9;
+    width: 200px;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-family: "Arial", "Verdana", sans-serif;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    list-style-type: none;
+  }
+  .reverb-embedded-listing a {
+    text-decoration: none;
+    color: #0080a5;
+  }
+  .reverb-embedded-listing-info {
+    border-top: 1px solid #ddd;
+    padding: 1em;
+    height: 5em;
+  }
+  .reverb-embedded-listing-title {
+    display: block;
+    max-height: 38px;
+    color: #6f6f6f;
+    font-size: 1.25rem;
+    font-weight: bold;
+    overflow: hidden;
+  }
+  .reverb-embedded-listing-price {
+    position: absolute;
+    padding: 0.75rem;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    background-color: #D27900;
+    color: white;
+  }
+  .reverb-embedded-listing img {
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    width: 100%;
+  }
+  .reverb-embedded-listing img:hover { opacity: 0.85; }
